@@ -1,0 +1,623 @@
+body {
+  margin: 0;
+}
+body .discount {
+  background-color: #92c1e9;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .discount a {
+  text-decoration: none;
+}
+body .discount a h2 {
+  margin: 0;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+body .navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+}
+body .navbar .nav-lists {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .navbar .nav-lists a {
+  text-decoration: none;
+}
+body .navbar .nav-lists a li {
+  list-style: none;
+  color: #3d4246;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+body .navbar .nav-lists a .list1,
+body .navbar .nav-lists a .list2 {
+  color: black;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+body .navbar .icons {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body .navbar .icons a i {
+  font-size: 22px;
+  color: black;
+}
+body main .category {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+body main .category .cat-text {
+  display: flex;
+  justify-content: space-between;
+}
+body main .category .cat-text h2 {
+  color: #3d4246;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+body main .category .cat-text a {
+  margin: 30px;
+  color: #3d4246;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body main .category .cards {
+  display: flex;
+  justify-content: center;
+  display: flex;
+}
+body main .category .cards .card .card-img {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+body main .category .cards .card .card-img img {
+  width: 90%;
+  transition: 2s;
+}
+body main .category .cards .card .card-img img:hover {
+  transform: scale(1.5);
+}
+body main .category .cards .card h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+body main .main-part2 {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .main-part2 img {
+  width: 38rem;
+  margin-right: 50px;
+}
+body main .main-part2 .part2-text {
+  width: 25rem;
+}
+body main .main-part2 .part2-text h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #91c1e9;
+}
+body main .main-part2 .part2-text p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #3d4246;
+  line-height: 35px;
+}
+body main .main-part2 .part2-text .btn {
+  display: flex;
+  justify-content: center;
+}
+body main .main-part2 .part2-text .btn button {
+  width: 12rem;
+  height: 40px;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+}
+body main .main-part2 .part2-text .btn button a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+body main .main-part3 {
+  display: flex;
+  justify-content: center;
+}
+body main .main-part3 a {
+  display: flex;
+  justify-content: center;
+}
+body main .main-part3 a img {
+  width: 95%;
+}
+body main .main-part4 {
+  width: 100%;
+}
+body main .main-part4 h2 {
+  color: #3d4246;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+body main .main-part4 .images {
+  display: flex;
+  justify-content: space-around;
+}
+body main .main-part4 .images img {
+  width: 15%;
+}
+body main .main-part5 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+body main .main-part5 .part5-img {
+  background-image: url("https://theoodie.com/cdn/shop/files/Frame_193373.png?v=1698052419&width=2400");
+  background-position: center;
+  background-size: contain;
+  height: 65vh;
+  width: 95%;
+  border-radius: 25px;
+}
+body main .main-part5 .part5-img h3 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  margin-top: 300px;
+  margin-bottom: 0;
+}
+body main .main-part5 .part5-img p {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+body main .main-part5 .part5-img .btn {
+  display: flex;
+  justify-content: center;
+}
+body main .main-part5 .part5-img .btn button {
+  background-color: #f87c56;
+  width: 12rem;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+}
+body main .main-part5 .part5-img .btn button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+body main .main-part6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+body main .main-part6 .part6-img {
+  background-image: url("https://theoodie.com/cdn/shop/files/Frame_193390.png?v=1698052421&width=1667");
+  background-position: center;
+  background-size: contain;
+  height: 65vh;
+  width: 95%;
+  border-radius: 25px;
+}
+body main .main-part6 .part6-img h3 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  margin-bottom: 0;
+  margin-top: 300px;
+}
+body main .main-part6 .part6-img p {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+body main .main-part6 .part6-img .btn {
+  display: flex;
+  justify-content: center;
+}
+body main .main-part6 .part6-img .btn button {
+  background-color: #f87c56;
+  width: 12rem;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+}
+body main .main-part6 .part6-img .btn button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+body main .main-part7 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+body main .main-part7 .part7-img {
+  background-image: url("https://theoodie.com/cdn/shop/files/Frame_193391_f8c3e0d5-33fb-4233-ad6b-7de4c2f625f6.png?v=1698052420&width=1667");
+  background-position: center;
+  background-size: contain;
+  height: 65vh;
+  width: 95%;
+  border-radius: 25px;
+}
+body main .main-part7 .part7-img h3 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  margin-bottom: 0;
+  margin-top: 300px;
+}
+body main .main-part7 .part7-img p {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+body main .main-part7 .part7-img .btn {
+  display: flex;
+  justify-content: center;
+}
+body main .main-part7 .part7-img .btn button {
+  background-color: #f87c56;
+  width: 18rem;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+}
+body main .main-part7 .part7-img .btn button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+body main .main-part8 {
+  padding: 50px;
+}
+body main .main-part8 .part8-head {
+  display: flex;
+  justify-content: space-between;
+}
+body main .main-part8 .part8-head h2 {
+  color: #3d4246;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0;
+}
+body main .main-part8 .part8-head a {
+  color: #3d4246;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+body main .cards {
+  display: flex;
+  justify-content: space-around;
+}
+body main .cards .card img {
+  width: 21rem;
+  border-radius: 10px;
+}
+body main .cards .card .card-head {
+  color: #3d4246;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  margin: 5px;
+}
+body main .cards .card .count {
+  display: flex;
+}
+body main .cards .card .count .icons i {
+  color: #ede545;
+}
+body main .cards .card .count p {
+  margin: 0;
+  font-size: 20px;
+  margin-left: 5px;
+}
+body main .cards .card .price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+body main .cards .card .price .old-price {
+  color: #3d4246;
+  margin: 0;
+  margin-right: 7px;
+  text-decoration-line: line-through;
+  text-decoration-color: #3d4246;
+}
+body main .cards .card .price .new-price {
+  color: #f87c56;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  margin: 0;
+}
+body main .cards .card .price-btn {
+  width: 17vh;
+  height: 30px;
+  background-color: #1bae4b;
+  border: none;
+  border-radius: 15px;
+}
+body main .cards .card .price-btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+body main .main-part9 {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  height: 80vh;
+}
+body main .main-part9 .part9-card1 {
+  width: 90rem;
+  height: 80vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+body main .main-part9 .part9-card1 .every {
+  background-image: url("https://theoodie.com/cdn/shop/files/Group_2796.jpg?v=1700034105&width=1200");
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  width: 45rem;
+  height: 75vh;
+}
+body main .main-part9 .part9-card1 .every h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-top: 270px;
+}
+body main .main-part9 .part9-card1 .every p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+body main .main-part9 .part9-card1 .every .every-btn1 {
+  display: flex;
+  justify-content: center;
+}
+body main .main-part9 .part9-card1 .every .every-btn1 button {
+  background-color: #f87c56;
+  width: 19rem;
+  height: 45px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+body main .main-part9 .part9-card1 .every .every-btn1 button a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+body main .main-part9 .part9-card2 {
+  width: 90rem;
+  height: 80vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+body main .main-part9 .part9-card2 .about {
+  background-image: url("https://theoodie.com/cdn/shop/files/Frame_193394.png?v=1698052417&width=600");
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  width: 45rem;
+  height: 75vh;
+}
+body main .main-part9 .part9-card2 .about h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-top: 270px;
+}
+body main .main-part9 .part9-card2 .about p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+body main .main-part9 .part9-card2 .about .about-btn2 {
+  display: flex;
+  justify-content: center;
+}
+body main .main-part9 .part9-card2 .about .about-btn2 button {
+  background-color: #f87c56;
+  width: 12rem;
+  height: 45px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+body main .main-part9 .part9-card2 .about .about-btn2 button a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+body footer .foot-img {
+  background-image: url("https://t4.ftcdn.net/jpg/05/00/76/75/360_F_500767502_AdezwSUsyb04l79RpV6zubKulRnIHpd0.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: space-around;
+}
+body footer .foot-img .oodie h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+body footer .foot-img .oodie ul {
+  width: 17rem;
+}
+body footer .foot-img .oodie ul .list1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+body footer .foot-img .oodie ul .list2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  list-style: none;
+}
+body footer .foot-img .oodie ul .list3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  list-style: none;
+}
+body footer .foot-img .discover h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+body footer .foot-img .discover ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+body footer .foot-img .discover ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+body footer .foot-img .support h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+body footer .foot-img .support ul {
+  width: 10rem;
+}
+body footer .foot-img .support ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+body footer .foot-img .support ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+body footer .foot-img .join {
+  width: 16rem;
+  margin-right: 120px;
+}
+body footer .foot-img .join h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 80px;
+}
+body footer .foot-img .join p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+body footer .foot-img .join input {
+  width: 16rem;
+  height: 35px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+body footer .foot-img .join .icons {
+  display: flex;
+}
+body footer .foot-img .join .icons .icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+body footer .foot-img .join .icons .icon a i {
+  font-size: 20px;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
